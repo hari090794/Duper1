@@ -1,0 +1,23 @@
+import java.io.*;
+class arm
+{
+public static void main(String args[])
+{
+int n=153,r=0,x=n,a;
+while(x)
+{
+a=x%10;
+a=a*a*a;
+r=a+r;
+x=x/10;
+}
+if(x==n)
+{
+system.out.println("this is armstong no");
+}
+else
+{
+system.out.println("this is not");
+}
+}
+}
